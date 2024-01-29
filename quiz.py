@@ -14,7 +14,12 @@ def load_questions():
     ("Which country hosted the 2016 Summer Olympics?", "Brazil", ["China", "Brazil", "Russia", "Japan"]),
     ("In which sport would you perform the Fosbury Flop?", "High Jump", ["Pole Vault", "Diving", "High Jump", "Triple Jump"]),
     ("What is the national sport of Japan?", "Sumo Wrestling", ["Baseball", "Judo", "Sumo Wrestling", "Karate"]),
-    ("Who holds the record for the most goals in a single Premier League season?", "Mohamed Salah", ["Alan Shearer", "Cristiano Ronaldo", "Mohamed Salah", "Harry Kane"])
+    ("Who holds the record for the most goals in a single Premier League season?", "Mohamed Salah", ["Alan Shearer", "Cristiano Ronaldo", "Mohamed Salah", "Harry Kane"]),
+    ("Which country won the most medals in the 2020 Tokyo Olympics?", "United States", ["China", "United States", "Japan", "Great Britain"])
+    ("What is the maximum weight for a golf ball according to the Rules of Golf?", "45.93 grams", ["45.93 grams", "50 grams", "42.67 grams", "48.00 grams"])
+    ("In which year did Serena Williams win her first Grand Slam singles title?", "1999", ["1999", "2001", "1997", "2003"])
+    ("Which team won the NBA Championship in 2021?", "Milwaukee Bucks", ["Los Angeles Lakers", "Miami Heat", "Milwaukee Bucks", "Phoenix Suns"])
+    ("Who is known as the 'Flying Finn' in the Formula 1 racing world?", "Kimi Räikkönen", ["Mika Häkkinen", "Valtteri Bottas", "Kimi Räikkönen", "Keke Rosberg"])
     ]
     return questions
 
