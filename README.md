@@ -9,7 +9,7 @@ Randomized Questions: Each quiz session randomly selects 5 questions from a pool
 Scoring and Leaderboard: Scores are calculated based on correct answers. High scores are saved and ranked in a leaderboard, which updates only if the user achieves a new high score.
 Leaderboard Ranking: Displays users' ranks based on their high scores in descending order.
 
-##How to Run
+## How to Run
 Ensure Python 3 is installed on your system.
 Download the project files to your local machine.
 Run the script using a Python interpreter: python quiz.py
