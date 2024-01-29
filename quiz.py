@@ -18,7 +18,7 @@ def load_questions():
     ]
     return questions
 
-# Function to conduct the quiz
+# This function dictates how the quiz runs
 def conduct_quiz(questions):
     random.shuffle(questions)
     score = 0
@@ -38,7 +38,7 @@ def conduct_quiz(questions):
 
     return score
 
-# Function to update the leaderboard
+# This function updates the leaderboard
 def update_leaderboard(username, score):
     leaderboard_file = 'leaderboard.csv'
     leaderboard = {}
@@ -62,7 +62,7 @@ def update_leaderboard(username, score):
         for user, score in leaderboard.items():
             writer.writerow([user, score])
 
-# Function to display the leaderboard
+# This function is for displaying the leaderboard
 def display_leaderboard():
     leaderboard_file = 'leaderboard.csv'
 
@@ -83,7 +83,7 @@ def display_leaderboard():
     for rank, (user, score) in enumerate(leaderboard, start=1):
         print(f"{rank}. {user} - {score}")
 
-# Main function to start the quiz game
+# This is the main function that launches the quiz
 def start_quiz():
     username = input("Enter your username: ")
     questions = load_questions()
@@ -92,5 +92,5 @@ def start_quiz():
     print(f"Your score: {score}/5")
     display_leaderboard()
 
-# Start the game
+# This starts the quiz
 start_quiz()
